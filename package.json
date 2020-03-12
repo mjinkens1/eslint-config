@@ -8,7 +8,7 @@
   },
   "author": "Matt Jinkens",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
