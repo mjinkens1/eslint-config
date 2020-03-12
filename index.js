@@ -10,7 +10,6 @@ const jestRules = require('./rules/jest');
 const prettierRules = require('./rules/prettier');
 const reactRules = require('./rules/react');
 const reactHooksRules = require('./rules/reactHooks');
-const shopifyRules = require('./rules/shopify');
 const standardRules = require('./rules/standard');
 
 module.exports = {
@@ -37,7 +36,6 @@ module.exports = {
     ...prettierRules,
     ...reactRules,
     ...reactHooksRules,
-    ...shopifyRules,
     ...standardRules,
   },
   overrides: [

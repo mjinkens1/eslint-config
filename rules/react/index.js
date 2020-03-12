@@ -22,6 +22,7 @@ const reactRules = {
         'state',
         'instance-variables',
         'instance-methods',
+        'everything-else',
         'lifecycle',
         'render',
       ],
