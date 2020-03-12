@@ -21,7 +21,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['jest', 'jsx-a11y', 'prettier', 'react', 'react-hooks', 'shopify'],
+  plugins: ['jest', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',

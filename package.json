@@ -13,6 +13,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-itemize-react": "github:mjinkens1/eslint-plugin-itemize-react",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-flowtype": "^4.6.0",
     "eslint-plugin-import": "^2.20.1",
