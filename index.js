@@ -59,9 +59,9 @@ module.exports = {
         paths: ['src'],
       },
     },
-  },
-  react: {
-    pragma: 'React',
-    version: 'detect',
+    react: {
+      pragma: 'React',
+      version: 'detect',
+    },
   },
 };
