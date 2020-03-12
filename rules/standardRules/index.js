@@ -20,3 +20,5 @@ const standardRules = {
   'no-var': 'error',
   'prefer-const': 'error',
 };
+
+module.exports = standardRules;

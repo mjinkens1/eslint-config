@@ -7,3 +7,5 @@ const serviceWorkerOverrides = {
     'shopify/prefer-early-return': 'off',
   },
 };
+
+module.exports = serviceWorkerOverrides;

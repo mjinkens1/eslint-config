@@ -3,4 +3,4 @@ const reactHooksRules = {
   'react-hooks/rules-of-hooks': 'error',
 };
 
-export default reactHooksRules;
+module.exports = reactHooksRules;

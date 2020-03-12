@@ -8,3 +8,4 @@ const testOverrides = {
     'lines-between-class-members': 'off',
   },
 };
+module.exports = testOverrides;

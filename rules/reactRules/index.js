@@ -56,4 +56,4 @@ const reactRules = {
   'react/void-dom-elements-no-children': 'error',
 };
 
-export default reactRules;
+module.exports = reactRules;

@@ -5,4 +5,4 @@ const importRules = {
   'import/order': 'off',
 };
 
-export default importRules;
+module.exports = importRules;

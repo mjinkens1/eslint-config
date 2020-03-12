@@ -5,4 +5,4 @@ const shopifyRules = {
   'shopify/restrict-full-import': 'error',
 };
 
-export default shopifyRules;
+module.exports = shopifyRules;

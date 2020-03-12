@@ -4,3 +4,5 @@ const testUtilsOverrides = {
     'import/no-extraneous-dependencies': 'off',
   },
 };
+
+module.exports = testUtilsOverrides;
