@@ -22,7 +22,7 @@ module.exports = {
   },
   parser: "babel-eslint",
   plugins: [
-    "itemize-react",
+    "eslint-plugin-itemize-react",
     "jest",
     "jsx-a11y",
     "prettier",
@@ -36,7 +36,7 @@ module.exports = {
     "plugin:jest/recommended",
     "airbnb-base",
     "plugin:prettier/recommended",
-    "itemize-react"
+    "eslint-plugin-itemize-react"
   ],
   rules: {
     ...importRules,
