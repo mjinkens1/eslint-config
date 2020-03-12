@@ -1,17 +1,17 @@
 // Overrides
-const importOverrides = require('./overrides/importOverrides');
-const serviceWorkerOverrides = require('./overrides/serviceWorkerOverrides');
-const testOverrides = require('./overrides/testOverrides');
-const testUtilsOverrides = require('./overrides/testUtilsOverrides');
+const importOverrides = require('./overrides/import');
+const serviceWorkerOverrides = require('./overrides/serviceWorker');
+const testOverrides = require('./overrides/tests');
+const testUtilsOverrides = require('./overrides/testUtils');
 
 // Rules
-const importRules = require('./rules/importRules');
-const jestRules = require('./rules/jestRules');
-const prettierRules = require('./rules/prettierRules');
-const reactRules = require('./rules/reactRules');
-const reactHooksRules = require('./rules/reactHooksRules');
-const shopifyRules = require('./rules/shopifyRules');
-const standardRules = require('./rules/standardRules');
+const importRules = require('./rules/import');
+const jestRules = require('./rules/jest');
+const prettierRules = require('./rules/prettier');
+const reactRules = require('./rules/react');
+const reactHooksRules = require('./rules/reactHooks');
+const shopifyRules = require('./rules/shopify');
+const standardRules = require('./rules/standard');
 
 module.exports = {
   env: {
