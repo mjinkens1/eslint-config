@@ -2,6 +2,10 @@
   "name": "eslint-config-itemize-react",
   "version": "1.0.0",
   "description": "ESLint config for React projects at Itemize Corp",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mjinkens1/eslint-config-itemize-react.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +17,6 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-itemize-react": "github:mjinkens1/eslint-plugin-itemize-react",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-flowtype": "^4.6.0",
     "eslint-plugin-import": "^2.20.1",
