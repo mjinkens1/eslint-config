@@ -12,7 +12,7 @@ const webConfig = {
         "no-param-reassign": "off",
         "no-console": "off",
         "no-use-before-define": "off",
-        "@itemize/react/prefer-early-return": "off"
+        "@itemizecorp/react/prefer-early-return": "off"
       }
     }
   ]
