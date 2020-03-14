@@ -1,6 +1,6 @@
-const jest = require("../../rules/defs/jest");
-const prettier = require("../../rules/defs/prettier");
-const standard = require("../../rules/defs/standard");
+const jest = require("../../rules/jest");
+const prettier = require("../../rules/prettier");
+const standard = require("../../rules/standard");
 
 module.exports = {
   env: {
