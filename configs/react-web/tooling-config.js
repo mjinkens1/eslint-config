@@ -4,7 +4,7 @@
  */
 
 module.exports = {
-  parser: "babel-eslint",
-  plugins: ["@itemizecorp/react"],
-  extends: "plugin:@itemizecorp/react/web"
+  parser: 'babel-eslint',
+  plugins: ['@itemizecorp/react'],
+  extends: 'plugin:@itemizecorp/react/web',
 };

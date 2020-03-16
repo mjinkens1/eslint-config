@@ -1,1 +1,1 @@
-module.exports = require("./configs/node");
+module.exports = require('./configs/node');

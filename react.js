@@ -1,1 +1,1 @@
-module.exports = require("./configs/react-web");
+module.exports = require('./configs/react-web');

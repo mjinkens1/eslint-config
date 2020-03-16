@@ -1,4 +1,4 @@
-const { cloneDeep, isArray, mergeWith } = require("lodash");
+const { cloneDeep, isArray, mergeWith } = require('lodash');
 
 const mergeConfigArrays = (objValue, srcValue) => {
   if (isArray(objValue)) {
@@ -9,5 +9,5 @@ const mergeConfigArrays = (objValue, srcValue) => {
 module.exports = {
   mergeConfigs: (config, newConfig) => {
     return mergeWith(cloneDeep(config), newConfig, mergeConfigArrays);
-  }
+  },
 };
