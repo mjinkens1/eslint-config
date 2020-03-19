@@ -19,6 +19,7 @@ const reactRules = {
     'error',
     {
       order: [
+        'constructor',
         'state',
         'instance-variables',
         'instance-methods',

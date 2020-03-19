@@ -5,7 +5,15 @@ const commonConfig = require('../react-common');
 const { mergeConfigs } = require('../../utils');
 
 const reactNativeConfig = {
-  extends: ['@react-native-community'],
+  extends: [
+    '@react-native-community',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
+    'plugin:jest/recommended',
+    'airbnb-base',
+    'plugin:prettier/recommended',
+  ],
   settings: {
     'import/resolver': {
       node: {

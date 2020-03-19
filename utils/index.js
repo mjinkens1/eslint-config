@@ -1,8 +1,11 @@
-const { cloneDeep, isArray, mergeWith } = require('lodash');
+const { cloneDeep, isArray, mergeWith, sortBy, uniq } = require('lodash');
 
 const mergeConfigArrays = (objValue, srcValue) => {
   if (isArray(objValue)) {
-    return objValue.concat(srcValue);
+    const sorted = sortBy(objValue.concat(srcValue), item => {
+      return srcValue.indexOf(item);
+    });
+    return uniq(sorted);
   }
 };
 
